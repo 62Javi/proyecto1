@@ -1,9 +1,75 @@
-header{
-    background-color: antiquewhite;
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
-section2{
-    background-color: aqua;
+/* comienza footer */
+*{
+    margin: 0;
+    padding: 0;
 }
-section{
-    background-color: aquamarine;
+
+
+footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 4.35rem;
+    margin-top: auto;
 }
+
+
+p{
+    color: white;
+  
+}
+
+
+a{
+    color: yellow;
+}
+
+.container_footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80.5em;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+/*
+.caja_footer_izquierda{
+    background-color: green;
+}
+
+.caja_footer_derecha{
+    background-color: blue;
+}
+*/
+
+
+
+
+
+/*
+.caja_footer_izquierda{
+    text-align: right;    
+}
+
+.caja_footer_derecha{
+    text-align: right;
+}
+
+/* termina footer*/

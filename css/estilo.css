@@ -9,27 +9,64 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+section{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+}
+*/
+/* comienza el header*/
 header{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: grey;
+    justify-content: space-around;
     padding: 1rem 0;
+    text-align: center;
 }
 
 
 ul{
     display: flex;
     text-transform: uppercase;
-    list-style-type: none;
 }
 
 li{
     margin-left: 1em;
+    display: flex;
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
 }
 
 
-
+/*termina el header*/
 
 
 

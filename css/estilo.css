@@ -4,29 +4,12 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.seccion1{
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
 
 
@@ -107,14 +90,13 @@ footer{
 }
 
 
-p{
+.pfooter{
     color: white;
-  
 }
 
 
-a{
-    color: yellow;
+.afooter{
+    color: rgb(245, 223, 78);
 }
 
 .container_footer{

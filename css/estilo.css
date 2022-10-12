@@ -11,15 +11,22 @@ html{
 
 /* comienza la seccion 1*/
 .seccion1{
-    background-color: aquamarine;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding: 4rem;
+    justify-content:center;
+    padding-top: 13rem;
+    padding-bottom: 5.5rem;
     background-color: rgb(245, 223, 78);
-    margin-block-end: auto;
 }
 
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    width: 68%;
+    background-color: rgb(245, 223, 78);
+    align-items: center;
+    
+}
 
 
 .p1seccion1{
@@ -57,11 +64,13 @@ button{
 }
 
 .contenedoriconoseccion1{
-    background-color: aqua;
     display: flex;
-    text-align-last: center;
- }
-
+    background-color:rgb(245, 223, 78);
+    justify-content: center;
+    color: black;
+    padding-bottom: 1rem;
+}
+ 
 
 
 /*termina la seccion 1*/
@@ -80,10 +89,17 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem 0;
     text-align: center;
+    height: 4.5rem;
 }
 
+.prueba{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 68%;
+}
 
 ul{
     display: flex;
@@ -101,6 +117,16 @@ nav{
     justify-content: center;
 }
 
+.contenedoricono{
+    font-size: 1.2rem;
+    width: 5rem;
+
+    justify-content: space-between;
+}
+
+i{
+    justify-content: space-between;
+}
 
 /*termina el header*/
 
@@ -125,7 +151,6 @@ nav{
 
 
 body{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }

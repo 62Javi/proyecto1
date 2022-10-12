@@ -4,16 +4,57 @@
 }
 
 
+html{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+
 .seccion1{
     background-color: aquamarine;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 4rem;
+    background-color: rgb(245, 223, 78);
+    margin-block-end: auto;
 }
 
 
 
+.p1seccion1{
+    font-size: 3em;
+}
 
+
+.h1seccion1{
+    font-size: 5.5em;
+}
+
+
+.p2seccion1{
+    font-size: 1.2em;
+}
+
+
+button{
+    background-color: rgb(33, 37, 41);
+    color: white;
+    padding: 1.3em;
+    font-size: 1em;
+}
+
+
+.contactoseccion1{
+    padding: 1.3em;
+    color: black;
+}
+
+
+.imagenseccion1a{
+    border-radius: 50%;
+    border: 15px solid white
+}
 
 /*
 section{

@@ -136,7 +136,20 @@ i{
 /* comienza seccion2*/
 
 
+.columna1seccion2{
+    
+}
 
+
+.columna2seccion2{
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+}
+
+.row3seccion2{
+
+}
 
 
 /* termina seccion2*/

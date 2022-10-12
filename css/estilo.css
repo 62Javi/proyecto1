@@ -137,7 +137,7 @@ i{
 
 
 .columna1seccion2{
-    
+    text-align: center;
 }
 
 
@@ -145,11 +145,63 @@ i{
     display: flex;
     background-color: aqua;
     align-items: center;
+    justify-content:center;
+    color: rgb(33, 37, 41);
 }
 
 .row3seccion2{
-
+    padding-left: 17%;
+    padding-right: 11%;
+    font-size: 1.32em;
 }
+
+
+
+.row4seccion2{
+    padding-right: 17%;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.h1row4seccion2{
+    font-size: 2.5em;
+}
+
+.h4row4seccion2{
+    font-size: 0.6em;
+}
+
+
+.columna3seccion2{
+    background-color: blueviolet;
+    display: flex;
+    padding-right: 18%;
+    padding-left: 17%;
+    padding-top: 2.5rem;
+    justify-content: space-between;
+}
+
+/*
+.row5seccion2{
+    background-color: aquamarine;
+    padding-inline: 4%;
+}
+
+.row6seccion2{
+    background-color: brown;
+    padding-inline: 4%;
+}
+
+.row7seccion2{
+    background-color: rgb(196, 23, 118);
+    padding-inline: 4%;
+}
+
+.row8seccion2{
+    background-color: rgb(132, 165, 42);
+    padding-inline: 4%;
+}
+*/
 
 
 /* termina seccion2*/

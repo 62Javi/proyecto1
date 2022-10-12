@@ -141,9 +141,29 @@ i{
 }
 
 
+.row1seccion2{
+    padding-bottom: 0.6rem;
+}
+
+
+.buttonseccion2{
+    background-color: rgb(245, 223, 78);
+    border: 0;
+    color: rgb(33, 37, 41);
+    padding-block: 0;
+    padding-inline: 0.4em;
+}
+
+
+.h1row2seccion2{
+    font-size: 2.1rem;
+}
+
+
+
+
 .columna2seccion2{
     display: flex;
-    background-color: aqua;
     align-items: center;
     justify-content:center;
     color: rgb(33, 37, 41);
@@ -172,14 +192,24 @@ i{
 }
 
 
+
+
 .columna3seccion2{
-    background-color: blueviolet;
     display: flex;
     padding-right: 18%;
     padding-left: 17%;
     padding-top: 2.5rem;
     justify-content: space-between;
 }
+
+.h5rowseccion2{
+    color: rgb(95, 105, 113);
+}
+
+.prowseccion2{
+    color: rgb(16, 20, 25);
+}
+
 
 /*
 .row5seccion2{

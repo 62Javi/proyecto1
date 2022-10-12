@@ -136,8 +136,15 @@ i{
 /* comienza seccion2*/
 
 
+.seccion2{
+    padding-block: 6.6rem;
+    
+}
+
+
 .columna1seccion2{
     text-align: center;
+    padding-bottom: 2.5rem;
 }
 
 
@@ -156,7 +163,7 @@ i{
 
 
 .h1row2seccion2{
-    font-size: 2.1rem;
+    font-size: 2.6rem;
 }
 
 
@@ -170,21 +177,23 @@ i{
 }
 
 .row3seccion2{
-    padding-left: 17%;
+    padding-left: 16%;
     padding-right: 11%;
-    font-size: 1.32em;
+    font-size: 1.42em;
+    padding-bottom: 2rem;
 }
 
 
 
 .row4seccion2{
-    padding-right: 17%;
+    padding-right: 16%;
     text-align: center;
     font-size: 2.5em;
+    padding-bottom: 5rem;
 }
 
 .h1row4seccion2{
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 .h4row4seccion2{
@@ -196,8 +205,8 @@ i{
 
 .columna3seccion2{
     display: flex;
-    padding-right: 18%;
-    padding-left: 17%;
+    padding-right: 17%;
+    padding-left: 16%;
     padding-top: 2.5rem;
     justify-content: space-between;
 }

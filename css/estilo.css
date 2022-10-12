@@ -9,7 +9,7 @@ html{
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
 }
 
-
+/* comienza la seccion 1*/
 .seccion1{
     background-color: aquamarine;
     display: flex;
@@ -55,6 +55,18 @@ button{
     border-radius: 50%;
     border: 15px solid white
 }
+
+.contenedoriconoseccion1{
+    background-color: aqua;
+    display: flex;
+    text-align-last: center;
+ }
+
+
+
+/*termina la seccion 1*/
+
+
 
 /*
 section{

@@ -267,9 +267,11 @@ section{
 /* comienza seccion3 */
 
 .seccion3{
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
+    background-color: rgb(248, 249, 250);
+    padding-top: 6.5rem;
+    padding-bottom: 3.5rem;
 }
 
 
@@ -289,26 +291,73 @@ section{
     padding-inline: 0.4em;
 }
 
+
+.row2seccion3{
+    padding-bottom: 5rem;
+}
+
+
 .h2seccion3{
     font-size: 2.6rem;
 }
 
 
-.columna2seccion3{
-    background-color: brown;
-}
- 
+
+/*columna2seccion3*/
+
 .row3seccion3{
     display: flex;
     justify-content: space-between;
     padding-inline: 16%;
     text-align: center;
+    padding-bottom: 3rem;
 }
+
+.iconoseccion3aprendido{
+    font-size: 3.3rem;
+    color: rgb(245, 223, 78);
+}
+
+.h3seccion3aprendido{
+    font-size: 1.4rem;
+}
+
+.prow3seccion3{
+    color: rgb(95, 105, 113);
+}
+
 
 .cuadro2seccion3{
     padding-inline: 7rem;
 }
 
+.iconoseccion3{
+    font-size: 3.3rem;
+    color: rgb(95, 105, 113);
+}
+
+.h3seccion3{
+    font-size: 1.4rem;
+    color: rgb(95, 105, 113);
+}
+
+
+
+.columna3seccion3{
+
+}
+ 
+.row4seccion3{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 16%;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+.cuadro5seccion3{
+    padding-inline: 7rem;
+}
 
 
 

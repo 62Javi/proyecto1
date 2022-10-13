@@ -1,2 +1,3 @@
 # proyectoweb1
-Realizacion de trabajo practico
+Realizacion de trababjo practico nro 1
+version web

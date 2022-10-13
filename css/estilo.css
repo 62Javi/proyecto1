@@ -341,11 +341,6 @@ section{
     color: rgb(95, 105, 113);
 }
 
-
-
-.columna3seccion3{
-
-}
  
 .row4seccion3{
     display: flex;
@@ -364,8 +359,6 @@ section{
 
 
 
-
-
 /* termina seccion3*/
 
 
@@ -373,10 +366,66 @@ section{
 
 
 
+/* comienza seccion4*/
+
+
+.seccion4{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttonseccion4{
+    background-color: rgb(245, 223, 78);
+    border: 0;
+    color: rgb(33, 37, 41);
+    padding: 0.2rem;
+}
+
+
+.row2seccion4{
+    padding-bottom: 5rem;
+}
+
+
+.h2seccion4{
+    font-size: 2.6rem;
+}
 
 
 
 
+
+.columna2seccion4{
+    display: table-cell;
+    display: flex;
+
+    padding-inline: 16%;
+}
+
+.columnaizseccion4{
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+.columnadeseccion4{
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+/*
+.lineaseccion4{
+    border-left: thick solid #000;
+    height: 27rem;
+    left: 14%;
+    position: absolute;
+    padding-top: 
+}
+*/
+
+
+
+/* termina seccion4*/
 
 
 

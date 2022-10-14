@@ -442,8 +442,8 @@ section{
     position: relative;
     display: table-cell;
     display: flex;
-    left: 16%;
-    justify-items: center;
+    padding-inline: 16%;
+
 
 }
 
@@ -462,16 +462,16 @@ section{
 }
 
 .detseccion4{
-    width: 100;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 0.7rem;
 }
 
 .menuseccion4{
     position: relative;
-    border: 2px solid rgb(245, 223, 78);
-
+    background-color: rgb(95, 105, 113);
+    border-radius: 0.2rem;
 }
 
 .menuseccion4 div{
@@ -487,7 +487,7 @@ section{
 
 
 #html-menuseccion4{
-    animation: html-barra 4s forwards;
+    animation: html-barra 2s forwards;
 }
 
 @keyframes html-barra{

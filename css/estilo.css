@@ -436,6 +436,71 @@ section{
 
 
 
+.row5seccion4{
+    width: 68%;
+    min-width: 590px;
+    position: relative;
+    display: table-cell;
+    display: flex;
+    left: 16%;
+    justify-items: center;
+
+}
+
+.izseccion4{
+    width: 50%;
+    background-color: bisque;
+}
+
+.deseccion4{
+    width: 50%;
+    background-color: aquamarine;
+}
+
+.habseccion4:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.detseccion4{
+    width: 100;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.menuseccion4{
+    position: relative;
+    border: 2px solid rgb(245, 223, 78);
+
+}
+
+.menuseccion4 div{
+    position: relative;
+    width: 0;
+    height: 8px;
+    border-radius: 10px;
+    background-color: rgb(114, 78, 245);
+
+}
+
+/*animacion*/
+
+
+#html-menuseccion4{
+    animation: html-barra 4s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
 
 
 

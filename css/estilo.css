@@ -168,7 +168,7 @@ section{
 .buttonseccion2{
     background-color: rgb(245, 223, 78);
     border: 0;
-    color: rgb(33, 37, 41);
+    color: rgb(75, 74, 74);
     padding-block: 0;
     padding-inline: 0.4em;
 }
@@ -286,7 +286,7 @@ section{
 .buttonseccion3{
     background-color: rgb(245, 223, 78);
     border: 0;
-    color: rgb(33, 37, 41);
+    color: rgb(75, 74, 74);
     padding-block: 0;
     padding-inline: 0.4em;
 }
@@ -376,13 +376,14 @@ section{
 
 .columna1seccion4{
     text-align: center;
+    padding-top: 6.7rem;
 }
 
 .buttonseccion4{
     background-color: rgb(245, 223, 78);
     border: 0;
-    color: rgb(33, 37, 41);
-    padding: 0.2rem;
+    color: rgb(75, 74, 74);
+    padding: 0.19rem;
 }
 
 .h2seccion4{
@@ -420,6 +421,13 @@ section{
     padding-inline: 16%;
 }
 
+.row4seccion4{
+    font-size: 1.45rem;
+    padding-inline: 16%;
+    padding-bottom: 2rem;
+}
+
+
 .columnaizseccion4{
     padding-right: 2rem;
     padding-left: 1rem;
@@ -443,22 +451,23 @@ section{
     display: table-cell;
     display: flex;
     padding-inline: 16%;
+    font-size: 1.1rem;
 
 
 }
 
 .izseccion4{
     width: 50%;
-    background-color: bisque;
+    padding-right: 1.9%;
 }
 
 .deseccion4{
     width: 50%;
-    background-color: aquamarine;
+    padding-left: 1.9%;
 }
 
 .habseccion4:not(:last-child){
-    margin-bottom: 30px;
+    margin-bottom: 1.8rem;
 }
 
 .detseccion4{
@@ -470,34 +479,88 @@ section{
 
 .menuseccion4{
     position: relative;
-    background-color: rgb(95, 105, 113);
+    background-color: rgb(233, 236, 239);
     border-radius: 0.2rem;
 }
 
 .menuseccion4 div{
     position: relative;
     width: 0;
-    height: 8px;
-    border-radius: 10px;
-    background-color: rgb(114, 78, 245);
+    height: 0.5rem;
+    border-radius: 1rem;
+    background-color: rgb(245, 223, 78);
 
 }
+.columna4seccion4{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.row6seccion4{
+    padding-top: 4.5rem;
+    padding-bottom: 7.5rem;
+}
+
+
+
+
+
+.buttom2seccion4{
+    background-color: white;
+    color: black;
+    padding-inline: 2.8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.97rem;
+    border-width: 0.15rem;
+}
+
 
 /*animacion*/
 
-
-#html-menuseccion4{
-    animation: html-barra 2s forwards;
+#diseño-menuseccion4{
+    animation: dis-barra 3s forwards;
 }
 
-@keyframes html-barra{
+@keyframes dis-barra{
     100%{
-        width: 90%;
+        width: 17%;
     }
 }
 
 
 
+#html-menuseccion4{
+    animation: html-barra 3s forwards;
+}
+
+@keyframes html-barra{
+    100%{
+        width: 12%;
+    }
+}
+
+#js-menuseccion4{
+    animation: js-barra 3s forwards;
+}
+
+@keyframes js-barra{
+    100%{
+        width: 1%;
+    }
+}
+
+
+#boot-menuseccion4{
+    animation: boot-barra 3s forwards;
+}
+
+@keyframes boot-barra{
+    100%{
+        width: 8%;
+    }
+}
 
 
 

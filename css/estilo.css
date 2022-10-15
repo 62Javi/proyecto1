@@ -680,10 +680,13 @@ section{
 .columna1seccion9{
     padding-inline: 16%;
     display: flex;
+    
+    
 }
 
 .columnaizseccion9{
-    padding-right: 2%;
+    padding-right: 8%;
+    width: 75%;
 }
 
 .h2seccion9{
@@ -716,10 +719,10 @@ section{
 }
 
 .columnadeseccion9{
-    padding-left: 2%;
+    padding-right: 7%;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 66%;
 }
 
 .facebooks9{
@@ -736,6 +739,21 @@ section{
     display: flex;
     flex-direction: column;
 
+
+}
+
+.cajalabseccion9{
+    padding-bottom: 0.7rem;
+    padding-top: 1rem;
+}
+
+.cajalab2seccion9{
+    padding-bottom: 0.7rem;
+    padding-top: 1.39rem;
+}
+
+.cajalab3seccion9{
+    padding-top: 1.4rem;
 }
 
 input{
@@ -745,11 +763,13 @@ input{
     outline: 0;
     width: 100%;
     border-bottom: 2px solid rgb(213, 194, 68);
+    font-size: 1.05rem;
+    height: 2rem;
 }
 
 label{
-    font-size: 1.195rem;
-    padding-top: 1.405rem;
+    font-size: 1.09rem;
+    padding-top: 1.5rem;
 }
 
 textarea{
@@ -759,9 +779,31 @@ textarea{
     outline: 0;
     width: 100%;
     border-bottom: 2px solid rgb(213, 194, 68);
-    height: 10.4rem;
+    height: 9.41rem;
+    font-size: 1.15rem;
 }
 
+.buttoncajaseccion9{
+    padding-top: 0.7rem;
+}
+
+.buttonseccion9{
+    font-size: 1rem;
+    background-color: rgb(33, 37, 41);
+    color: white;
+    border: 0;
+    display: flex;
+    padding-left: 2.7rem;
+    padding-right: 2.2rem;
+    padding-block: 1rem;
+    
+    
+}
+
+.flechaseccion9{
+    padding-left: 1.1rem;
+    font-size: 1.2rem;
+}
 /* termina seccion9*/
 
 

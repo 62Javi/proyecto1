@@ -99,7 +99,7 @@ i{
 }
 
 
-button{
+.buttonseccion1{
     background-color: rgb(33, 37, 41);
     color: white;
     padding: 1.3em;
@@ -644,6 +644,7 @@ section{
 .columna4seccion5{
     display: flex;
     padding-inline: 16%;
+    padding-bottom: 5.9rem;
     
 
 }
@@ -664,7 +665,112 @@ section{
 
 
 
-/* termina seccion4*/
+
+
+/* termina seccion9*/
+
+
+
+
+.seccion9{
+    display: flex;
+    background-color: rgb(245, 223, 78);
+}
+
+.columna1seccion9{
+    padding-inline: 16%;
+    display: flex;
+}
+
+.columnaizseccion9{
+    padding-right: 2%;
+}
+
+.h2seccion9{
+    font-size: 2.35rem;
+}
+
+.pseccion9{
+    font-size: 1.5rem;
+    color: rgb(33, 37, 41);
+    padding-bottom: 0.2rem;
+}
+
+.h4seccion9{
+    font-size: 1.4rem;
+    padding-top: 0.53rem;
+}
+
+.spanseccion9{
+    font-size: 1.09rem;
+    font-weight: bolder;
+    color: rgb(24, 30, 39);
+}
+
+.iconosseccion9{
+    font-size: 1.6rem;
+    color: rgb(77, 85, 90);
+    display: flex;
+    padding-top: 3.05rem;
+    
+}
+
+.columnadeseccion9{
+    padding-left: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.facebooks9{
+    padding-inline: 1.2rem;
+}
+
+.gits9{
+    padding-inline: 1.2rem;
+}
+
+
+
+.formseccion9{
+    display: flex;
+    flex-direction: column;
+
+}
+
+input{
+    background: none;
+    border: none;
+    border-bottom: 0.15rem;
+    outline: 0;
+    width: 100%;
+    border-bottom: 2px solid rgb(213, 194, 68);
+}
+
+label{
+    font-size: 1.195rem;
+    padding-top: 1.405rem;
+}
+
+textarea{
+    background: none;
+    border: none;
+    border-bottom: 0.15rem;
+    outline: 0;
+    width: 100%;
+    border-bottom: 2px solid rgb(213, 194, 68);
+    height: 10.4rem;
+}
+
+/* termina seccion9*/
+
+
+
+
+
+
+
+
 
 
 
@@ -700,8 +806,6 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 80.5em;
-
-
 
 
 }

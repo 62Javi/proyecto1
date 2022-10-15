@@ -29,7 +29,7 @@ header{
     padding: 0;
 }
 
-ul{
+.ulheader{
     display: flex;
     text-transform: uppercase;
 }
@@ -562,20 +562,6 @@ section{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 .lineaseccion4{
     border-left: thick solid #000;
@@ -585,6 +571,96 @@ section{
     padding-top: 
 }
 */
+
+/*termina seccion4*/
+
+
+
+/*empieza seccion5*/
+
+
+
+.columna1seccion5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row1seccion5{
+    text-align: center;
+}
+
+.buttonseccion5{
+    background-color: rgb(245, 223, 78);
+    border: 0;
+    color: rgb(75, 74, 74);
+    padding: 0.19rem;
+}
+ 
+
+.h2seccion5{
+    font-size: 2.5rem;
+}
+
+.row3seccion5{
+    text-align: center;
+    align-content: center;
+    padding-left: 4rem;
+    padding-bottom: 3rem;
+    padding-top: 2.8rem;
+    
+}
+
+.listaseccion5{
+    text-align: center;
+    padding-right: 4.5rem;
+}
+
+.ulseccion5{
+    display: flex;
+    color: rgb(140, 140, 141) ;
+}
+
+
+.columna3seccion5{
+    display: flex;
+    padding-inline: 16%;
+    padding-bottom: 0.76rem;
+
+}
+
+.row4seccion5{
+    display: flex;
+    width: 20%;
+}
+
+.iconoseccion5{
+    padding-inline: 0.76rem;
+    
+}
+
+
+
+.columna4seccion5{
+    display: flex;
+    padding-inline: 16%;
+    
+
+}
+
+.row5seccion5{
+    display: flex;
+    width: 20%;
+}
+
+.iconoseccion5{
+    padding-inline: 0.76rem;
+    
+}
+
+
+
+
 
 
 

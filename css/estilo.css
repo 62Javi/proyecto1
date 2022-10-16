@@ -18,6 +18,7 @@ header{
     justify-content: space-around;
     text-align: center;
     height: 4.5rem;
+    
 }
 
 .prueba{
@@ -50,6 +51,10 @@ nav{
     width: 5rem;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+}
 
 /*termina el header*/
 
@@ -145,7 +150,8 @@ section{
 
 
 .seccion2{
-    padding-block: 6.6rem;
+    padding-top: 6rem;
+    padding-bottom: 6.6rem;
     
 }
 

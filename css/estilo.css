@@ -35,7 +35,7 @@ header{
 }
 
 li{
-    margin-left: 1em;
+    margin-inline: 1rem;
     display: flex;
     list-style-type: none;
 }
@@ -48,13 +48,8 @@ nav{
 .contenedoricono{
     font-size: 1.2rem;
     width: 5rem;
-
-    justify-content: space-between;
 }
 
-i{
-    justify-content: space-between;
-}
 
 /*termina el header*/
 
@@ -113,9 +108,10 @@ i{
 }
 
 
+
 .imagenseccion1a{
     border-radius: 50%;
-    border: 1em solid white;
+    border: 1rem solid white;
     max-width: 100%;
     
 }
@@ -204,8 +200,33 @@ section{
     padding-bottom: 5rem;
 }
 
+
+.cajacirculo{
+    background-color: aquamarine;
+    width: 20rem;
+    height: 20rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.circulo{
+    background-color: rgb(245, 223, 78));
+    width: 0.5rem;
+    height: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+
+}
+
+
 .h1row4seccion2{
-    font-size: 3em;
+    font-size: 9.8rem;
+    color: r;
 }
 
 .h4row4seccion2{
@@ -415,10 +436,9 @@ section{
 }
 
 .columna2seccion4{
-    display: table-cell;
     display: flex;
-
     padding-inline: 16%;
+    justify-content: center;
 }
 
 .row4seccion4{
@@ -578,7 +598,11 @@ section{
 
 /*empieza seccion5*/
 
-
+.seccion5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 .columna1seccion5{
     display: flex;
@@ -598,6 +622,8 @@ section{
 }
  
 
+
+
 .h2seccion5{
     font-size: 2.5rem;
 }
@@ -605,7 +631,6 @@ section{
 .row3seccion5{
     text-align: center;
     align-content: center;
-    padding-left: 4rem;
     padding-bottom: 3rem;
     padding-top: 2.8rem;
     
@@ -613,31 +638,33 @@ section{
 
 .listaseccion5{
     text-align: center;
-    padding-right: 4.5rem;
+ 
 }
 
 .ulseccion5{
     display: flex;
     color: rgb(140, 140, 141) ;
+    padding-inline: 0.5rem;
 }
 
 
 .columna3seccion5{
     display: flex;
     padding-inline: 16%;
-    padding-bottom: 0.76rem;
+    padding-bottom: 0.9rem;
+    justify-content: center;
 
 }
 
 .row4seccion5{
     display: flex;
-    width: 20%;
 }
 
 .iconoseccion5{
     padding-inline: 0.76rem;
     
 }
+
 
 
 
@@ -645,18 +672,13 @@ section{
     display: flex;
     padding-inline: 16%;
     padding-bottom: 5.9rem;
+    justify-content: center;
     
 
 }
 
 .row5seccion5{
     display: flex;
-    width: 20%;
-}
-
-.iconoseccion5{
-    padding-inline: 0.76rem;
-    
 }
 
 
@@ -675,6 +697,7 @@ section{
 .seccion9{
     display: flex;
     background-color: rgb(245, 223, 78);
+    justify-content: center;
 }
 
 .columna1seccion9{
@@ -815,14 +838,10 @@ textarea{
 
 
 
-
-
-
-
-
 body{
     display: flex;
     flex-direction: column;
+    
 }
 /* comienza footer */
 

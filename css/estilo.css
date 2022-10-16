@@ -152,7 +152,7 @@ section{
 
 .columna1seccion2{
     text-align: center;
-    padding-bottom: 2.5rem;
+    padding-bottom: 1.5rem;
 }
 
 
@@ -188,7 +188,6 @@ section{
     padding-left: 16%;
     padding-right: 11%;
     font-size: 1.42em;
-    padding-bottom: 2rem;
 }
 
 
@@ -197,14 +196,13 @@ section{
     padding-right: 16%;
     text-align: center;
     font-size: 2.5em;
-    padding-bottom: 5rem;
+    padding-bottom: 6rem;
 }
 
 
 .cajacirculo{
-    background-color: aquamarine;
     width: 20rem;
-    height: 20rem;
+    height: 9.3rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -212,9 +210,9 @@ section{
 }
 
 .circulo{
-    background-color: rgb(245, 223, 78));
-    width: 0.5rem;
-    height: 0.5rem;
+    background-color: rgb(245, 223, 78);
+    width: 7.3rem;
+    height: 7.3rem;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -225,15 +223,14 @@ section{
 
 
 .h1row4seccion2{
-    font-size: 9.8rem;
-    color: r;
+    font-size: 8.8rem;
+    color: rgb(76, 77, 77);
 }
 
-.h4row4seccion2{
-    font-size: 0.6em;
+.prow4seccion2{
+    font-size: 2rem;
+    
 }
-
-
 
 
 .columna3seccion2{
@@ -246,6 +243,8 @@ section{
 
 .h5rowseccion2{
     color: rgb(95, 105, 113);
+    padding-bottom: 0.4rem;
+    font-size: 0.9rem;
 }
 
 .prowseccion2{

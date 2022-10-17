@@ -190,6 +190,7 @@ nav{
     padding-block: 0;
     padding-inline: 0.4em;
 }
+ 
 
 
 .h1row2seccion2{
@@ -261,11 +262,44 @@ nav{
 
 .columna3seccion2{
     display: flex;
-    padding-right: 17%;
-    padding-left: 16%;
+    justify-content: center;
     padding-top: 2.5rem;
-    justify-content: space-between;
+    padding-inline: 16%;
+    
 }
+
+.row5seccion2{
+    padding-right: 13.8rem;
+
+}
+
+.row6seccion2{
+    padding-right: 8rem;
+    width: 11rem;
+}
+
+.row7seccion2{
+    padding-left: 4rem;
+    padding-right: 5rem;
+    width: 12rem;
+}
+
+.row8seccion2{
+    padding-left: 7rem;
+    padding-right: 8rem;
+}
+
+
+.contenedors2{
+    display: flex;
+
+}
+
+.contenedors2a{
+    display: flex;
+
+}
+
 
 .h5rowseccion2{
     color: rgb(95, 105, 113);
@@ -515,7 +549,7 @@ nav{
 
 
 
-.buttom2seccion4{
+.button2seccion4{
     background-color: white;
     color: black;
     padding-inline: 2.8rem;
@@ -525,6 +559,10 @@ nav{
     border-width: 0.15rem;
 }
 
+.abuttonseccion4{
+    text-decoration: none;
+    color: black;
+}
 
 /*animacion*/
 
@@ -906,7 +944,7 @@ footer{
     }
 
     .row3seccion2{
-        padding-inline: 6%;
+        padding-inline: 4%;
         text-align: center;
     }
 
@@ -917,6 +955,7 @@ footer{
     .row4seccion2{
         padding-top: 1rem;
         padding-right: 0;
+        padding-bottom: 1rem;
     }
 
     .circulo{
@@ -936,11 +975,143 @@ footer{
         font-size: 1.7rem;
     }
 
+    .columna3seccion2{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 4%;
+        padding-top: 1.1rem;
+    }
+
+    
+
+    .contenedors2{
+        padding-bottom: 0.8rem;
+        
+    }
 
 
 
+    .row5seccion2{
+        padding-right: 1.8rem;
+   
+    }
+    
+    .row6seccion2{
+        padding-right: 0rem;
+        padding-left: 5rem;
+    }
+
+    .row7seccion2{
+        padding-right: 0rem;
+        padding-left: 0rem;
+
+    }
+    .row8seccion2{
+        padding-right: 0rem;
+        padding-left: 0.58rem;
+    }
+
+    .seccion2{
+        padding-bottom: 3.6rem;
+    }
+
+    .seccion3{
+        padding-top: 3.5rem;
+        padding-bottom: 0;
+
+    }
+
+    .buttonseccion3{
+        font-size: 1.1rem;
+    }
+
+    .h2seccion3{
+        font-size: 2.4rem;
+    }
+
+    .row3seccion3{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 4%;
+        padding-bottom: 0;
+    }
+
+    .iconoseccion3aprendido{
+        font-size: 2rem;
+    }
+
+    .iconoseccion3{
+        font-size: 2rem;
+    }
+
+    .cuadro1seccion3{
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro2seccion3{
+        padding-inline: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro3seccion3{
+        padding-bottom: 1.5rem;
+    }
 
 
+    .row4seccion3{
+        flex-direction: column;
+        padding-inline: 4%;
+        justify-content: 0;
+    }
+
+    .cuadro4seccion3{
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro5seccion3{
+        padding-inline: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro6seccion3{
+        padding-bottom: 1.5rem;
+    }
+
+    .columna1seccion4{
+        padding-top: 2.7rem;
+    }
+
+    .buttonseccion4{
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
+
+    .h2seccion4{
+        font-size: 2.4rem;
+    }
+
+    .columna2seccion4{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 4%;
+    }
+
+    .columnaizseccion4{
+        padding-right: 0.2rem;
+    }
+
+    .row2seccion4{
+        padding-bottom: 3rem;
+    }
+
+    .columnadeseccion4{
+        padding-right: 0.2rem;
+    }
+
+    .row4seccion4{
+        padding-top: 2.8rem;
+        padding-inline: 4%;
+    }
 
 
 

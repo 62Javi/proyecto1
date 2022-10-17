@@ -885,6 +885,10 @@ footer{
         justify-content: center;
     }
     
+    body{
+        width: 480px;
+    }
+
     .logoheader{
         font-size: 1.2rem;
         text-align: center;

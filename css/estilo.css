@@ -13,7 +13,6 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    width: 100%;
     
 }
 
@@ -37,6 +36,8 @@ header{
     display: flex;
     align-items: center;
     background-color: white;
+    width: 100%;
+    padding-inline: 16%;
 }
 
 
@@ -130,7 +131,9 @@ nav{
 
 
 .contactoseccion1{
-    padding: 1.3em;
+    padding-block: 1.3rem;
+    padding-left: 1.3rem;
+    padding-right: 0.3rem;
     color: black;
 }
 
@@ -885,11 +888,16 @@ footer{
 
 }
 
+.menucelular{
+    display: none;
+}
 
 /*comienza dispositivos moviles */
 @media screen and (max-width:480px){
 
-
+    .prueba{
+        padding-inline: 4%;
+    }
     
     header{
         height: 3.5rem;
@@ -908,8 +916,14 @@ footer{
         display: none;
     }
 
-    .contenedoricono{
-        display: none;
+    .menucelular{
+        display: flex;
+        align-items: center;
+        padding-right: 1.3rem;
+    }
+    
+    .aseccionheader{
+        color: rgb(77, 85, 90);
     }
 
     .seccion1{
@@ -953,6 +967,7 @@ footer{
         margin: 0 auto;
         width: 82%;
         display: flex;
+        padding-bottom: 2rem;
 
     }
 
@@ -1273,20 +1288,34 @@ footer{
         width: 1024px;
     }
 
+    .prueba{
+        padding-inline: 12%;
+    }
+
     .logoheader{
         font-size: 1.2rem;
         text-align: center;
     }
+
+
     .navheader{
         display: none;
     }
 
-    .contenedoricono{
-        display: none;
+    .menucelular{
+        display: flex;
+        align-items: center;
+        padding-right: 1.3rem;
     }
+    
+    .aseccionheader{
+        color: rgb(77, 85, 90);
+    }
+ 
 
     .seccion1{
         padding-bottom: 1rem;
+        padding-top: 9rem;
     }
 
 
@@ -1323,8 +1352,9 @@ footer{
     .imagenseccion1{
         justify-content: center;
         margin: 0 auto;
+        width: 82%;
         display: flex;
-
+        padding-bottom: 2rem;
     }
 
     
@@ -1672,13 +1702,101 @@ footer{
     }
 }
 
+@media only screen and (max-width: 1910px) and (min-width: 1317px){
 
 
+    .logoheader{
+        font-size: 1rem;
+    }
 
+    .contenedoricono{
+        font-size: 1rem;
+    }
 
+    .navheader{
+        font-size: 0.8rem;
+    }
 
+    .columna3seccion2{
+        flex-direction: column;
+        padding-top: 8rem;
+    }
 
+    .contenedors2, .contenedors2a{
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    
 
+    .row5seccion2{
+        padding-right: 1rem;
+    }
+    
+    .row6seccion2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
+    .row7seccion2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
-/*termina dispositivos moviles */
+    .row8seccion2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+}
+
+@media only screen and (max-width: 1316px) and (min-width: 1025px){
+
+    body{
+        width: 1316px;
+    }
+
+    .logoheader{
+        font-size: 1rem;
+    }
+
+    .contenedoricono{
+        font-size: 1rem;
+    }
+
+    .navheader{
+        font-size: 0.8rem;
+    }
+
+    .columna3seccion2{
+        flex-direction: column;
+        padding-top: 8rem;
+    }
+
+    .contenedors2, .contenedors2a{
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+    
+
+    .row5seccion2{
+        padding-right: 1rem;
+    }
+    
+    .row6seccion2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .row7seccion2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .row8seccion2{
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+}

@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 html{
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'IBM Plex Sans Thai Looped', sans-serif;
@@ -18,7 +17,6 @@ body{
 
 /* comienza el header*/
 
-
 header{
     display: flex;
     align-items: center;
@@ -28,7 +26,6 @@ header{
     position: fixed;
     background-color: white;
     width:100%;
-    
 }
 
 .prueba{
@@ -39,8 +36,6 @@ header{
     width: 100%;
     padding-inline: 16%;
 }
-
-
 
 .ulheader{
     display: flex;
@@ -61,9 +56,7 @@ nav{
 .contenedoricono{
     font-size: 1.2rem;
     display: flex;
-
 }
-
 
 .separacionicono{
     padding-inline: 1.3rem;
@@ -82,12 +75,8 @@ nav{
 /*termina el header*/
 
 
-
-
-
-
-
 /* comienza la seccion 1*/
+
 .seccion1{
     display: flex;
     align-items: center;
@@ -103,24 +92,19 @@ nav{
     width: 68%;
     background-color: rgb(245, 223, 78);
     align-items: center;
-    
 }
-
 
 .p1seccion1{
     font-size: 3em;
 }
 
-
 .h1seccion1{
     font-size: 5.5rem;
 }
 
-
 .p2seccion1{
     font-size: 1.2em;
 }
-
 
 .buttonseccion1{
     background-color: rgb(33, 37, 41);
@@ -129,7 +113,6 @@ nav{
     font-size: 1em;
 }
 
-
 .contactoseccion1{
     padding-block: 1.3rem;
     padding-left: 1.3rem;
@@ -137,13 +120,10 @@ nav{
     color: black;
 }
 
-
-
 .imagenseccion1a{
     border-radius: 50%;
     border: 1rem solid white;
     max-width: 100%;
-    
 }
 
 .contenedoriconoseccion1{
@@ -159,32 +139,24 @@ nav{
     text-decoration:none;
 }
 
-
 /*termina la seccion 1*/
-
-
 
 
 /* comienza seccion2*/
 
-
 .seccion2{
     padding-top: 6rem;
     padding-bottom: 6.6rem;
-    
 }
-
 
 .columna1seccion2{
     text-align: center;
     padding-bottom: 1.5rem;
 }
 
-
 .row1seccion2{
     padding-bottom: 0.6rem;
 }
-
 
 .buttonseccion2{
     background-color: rgb(245, 223, 78);
@@ -194,14 +166,9 @@ nav{
     padding-inline: 0.4em;
 }
  
-
-
 .h1row2seccion2{
     font-size: 2.6rem;
 }
-
-
-
 
 .columna2seccion2{
     display: flex;
@@ -215,8 +182,6 @@ nav{
     padding-right: 11%;
     font-size: 1.42em;
 }
-
-
 
 .row4seccion2{
     padding-right: 16%;
@@ -244,9 +209,7 @@ nav{
     display: flex;
     flex-direction: column;
     border-radius: 50%;
-
 }
-
 
 .h1row4seccion2{
     font-size: 8.8rem;
@@ -255,7 +218,6 @@ nav{
 
 .prow4seccion2{
     font-size: 2rem;
-    
 }
  
 .contenedorprovisorio{
@@ -268,12 +230,10 @@ nav{
     justify-content: center;
     padding-top: 2.5rem;
     padding-inline: 16%;
-    
 }
 
 .row5seccion2{
     padding-right: 13.8rem;
-
 }
 
 .row6seccion2{
@@ -293,16 +253,9 @@ nav{
 }
 
 
-.contenedors2{
+.contenedors2,.contenedors2a{
     display: flex;
-
 }
-
-.contenedors2a{
-    display: flex;
-
-}
-
 
 .h5rowseccion2{
     color: rgb(95, 105, 113);
@@ -314,12 +267,7 @@ nav{
     color: rgb(16, 20, 25);
 }
 
-
 /* termina seccion2*/
-
-
-
-
 
 
 /* comienza seccion3 */
@@ -331,7 +279,6 @@ nav{
     padding-top: 6.5rem;
     padding-bottom: 3.5rem;
 }
-
 
 .columna1seccion3{
     text-align: center;
@@ -349,16 +296,13 @@ nav{
     padding-inline: 0.4em;
 }
 
-
 .row2seccion3{
     padding-bottom: 5rem;
 }
 
-
 .h2seccion3{
     font-size: 2.6rem;
 }
-
 
 .row3seccion3{
     display: flex;
@@ -381,7 +325,6 @@ nav{
     color: rgb(95, 105, 113);
 }
 
-
 .cuadro2seccion3{
     padding-inline: 7rem;
 }
@@ -395,7 +338,6 @@ nav{
     font-size: 1.4rem;
     color: rgb(95, 105, 113);
 }
-
  
 .row4seccion3{
     display: flex;
@@ -409,11 +351,7 @@ nav{
     padding-inline: 7rem;
 }
 
-
 /* termina seccion3*/
-
-
-
 
 
 /* comienza seccion4*/
@@ -475,7 +413,6 @@ nav{
     padding-bottom: 2rem;
 }
 
-
 .columnaizseccion4{
     padding-right: 2rem;
     padding-left: 1rem;
@@ -490,14 +427,10 @@ nav{
     font-size: 1.85rem;
 }
 
-
-
 .row5seccion4{
     display: flex;
     padding-inline: 16%;
     font-size: 1.1rem;
-
-
 }
 
 .izseccion4{
@@ -533,8 +466,8 @@ nav{
     height: 0.5rem;
     border-radius: 1rem;
     background-color: rgb(245, 223, 78);
-
 }
+
 .columna4seccion4{
     text-align: center;
     display: flex;
@@ -545,8 +478,6 @@ nav{
     padding-top: 4.5rem;
     padding-bottom: 1.5rem;
 }
-
-
 
 .button2seccion4{
     background-color: white;
@@ -574,8 +505,6 @@ nav{
         width: 17%;
     }
 }
-
-
 
 #html-menuseccion4{
     animation: html-barra 3s forwards;
@@ -608,9 +537,7 @@ nav{
     }
 }
 
-
 /*termina seccion4*/
-
 
 
 /*empieza seccion5*/
@@ -639,9 +566,6 @@ nav{
     padding: 0.19rem;
 }
  
-
-
-
 .h2seccion5{
     font-size: 2.5rem;
 }
@@ -651,12 +575,10 @@ nav{
     align-content: center;
     padding-bottom: 3rem;
     padding-top: 2.8rem;
-    
 }
 
 .listaseccion5{
     text-align: center;
- 
 }
 
 .ulseccion5{
@@ -665,13 +587,11 @@ nav{
     padding-inline: 0.5rem;
 }
 
-
 .columna3seccion5{
     display: flex;
     padding-inline: 16%;
     padding-bottom: 0.9rem;
     justify-content: center;
-
 }
 
 .row4seccion5{
@@ -680,12 +600,10 @@ nav{
 
 .iconoseccion5{
     padding-inline: 0.76rem;
-    
 }
 
 .iconoseccion5a{
     padding-inline: 0.76rem;
-    
 }
 
 .cuador5seccion5{
@@ -706,8 +624,6 @@ nav{
 /*termina seccion5*/
 
 
-
-
 /*comienza seccion9*/
 
 .seccion9{
@@ -721,8 +637,6 @@ nav{
     display: flex;
     padding-bottom: 6.45rem;
     padding-top: 6.38rem;
-    
-    
 }
 
 .columnaizseccion9{
@@ -762,7 +676,6 @@ nav{
     color: rgb(77, 85, 90);
 }
 
-
 .columnadeseccion9{
     padding-right: 7%;
     display: flex;
@@ -778,13 +691,9 @@ nav{
     padding-inline: 1.2rem;
 }
 
-
-
 .formseccion9{
     display: flex;
     flex-direction: column;
-
-
 }
 
 .cajalabseccion9{
@@ -841,8 +750,6 @@ textarea{
     padding-left: 2.7rem;
     padding-right: 2.2rem;
     padding-block: 1rem;
-    
-    
 }
 
 .flechaseccion9{
@@ -850,15 +757,10 @@ textarea{
     font-size: 1.2rem;
 }
 
-
 /* termina seccion9*/
 
 
-
-
-
 /* comienza footer */
-
 
 footer{
     display: flex;
@@ -870,11 +772,9 @@ footer{
     margin-top: auto;
 }
 
-
 .pfooter{
     color: white;
 }
-
 
 .afooter{
     color: rgb(245, 223, 78);
@@ -884,13 +784,12 @@ footer{
     display: flex;
     justify-content: space-between;
     width: 80.5em;
-
-
 }
 
 .menucelular{
     display: none;
 }
+
 
 /*comienza dispositivos moviles */
 @media screen and (max-width:480px){
@@ -931,7 +830,6 @@ footer{
         padding-top: 8rem;
     }
 
-
     .contenedor1{
         display: flex;
         flex-direction: column-reverse;
@@ -943,7 +841,6 @@ footer{
         justify-content: center;
         align-items: center;
         text-align: center;
-    
     }
 
     .p1seccion1{
@@ -968,10 +865,7 @@ footer{
         width: 82%;
         display: flex;
         padding-bottom: 2rem;
-
     }
-
-    /*seccion2*/
     
     .buttonseccion2{
         font-size: 1.1rem;
@@ -1023,18 +917,12 @@ footer{
         padding-top: 1.1rem;
     }
 
-    
-
     .contenedors2{
         padding-bottom: 0.8rem;
-        
     }
-
-
 
     .row5seccion2{
         padding-right: 1.8rem;
-   
     }
     
     .row6seccion2{
@@ -1045,7 +933,6 @@ footer{
     .row7seccion2{
         padding-right: 0rem;
         padding-left: 0rem;
-
     }
     .row8seccion2{
         padding-right: 0rem;
@@ -1059,7 +946,6 @@ footer{
     .seccion3{
         padding-top: 3.5rem;
         padding-bottom: 0;
-
     }
 
     .buttonseccion3{
@@ -1096,7 +982,6 @@ footer{
     .cuadro3seccion3{
         padding-bottom: 1.5rem;
     }
-
 
     .row4seccion3{
         flex-direction: column;
@@ -1190,20 +1075,13 @@ footer{
         width: 80%;
     }
 
-
-
     .imgseccion5{
         justify-content: center;
         display: flex;
         flex-direction: column;
         padding-inline: 0;
         padding-block: 0.5rem;
-        
     }
-
-    
-
-
 
     .columna3seccion5{
         padding-inline: 4%;
@@ -1222,7 +1100,6 @@ footer{
 
     .row5seccion5{
         flex-direction: column;
-
     }
 
     .columna4seccion5{
@@ -1244,12 +1121,10 @@ footer{
         justify-content: center;
         padding-bottom: 2rem;
     }
-  
 
     .columnadeseccion9{
         width: 100%;
         padding-right: 0;
-        
     }
 
     .h2seccion9{
@@ -1297,7 +1172,6 @@ footer{
         text-align: center;
     }
 
-
     .navheader{
         display: none;
     }
@@ -1311,13 +1185,11 @@ footer{
     .aseccionheader{
         color: rgb(77, 85, 90);
     }
- 
 
     .seccion1{
         padding-bottom: 1rem;
         padding-top: 9rem;
     }
-
 
     .contenedor1{
         display: flex;
@@ -1330,7 +1202,6 @@ footer{
         justify-content: center;
         align-items: center;
         text-align: center;
-    
     }
 
     .p1seccion1{
@@ -1357,16 +1228,12 @@ footer{
         padding-bottom: 2rem;
     }
 
-    
-
     .imagenseccion1a{
         justify-content: center;
         align-items: center;
         display: flex;
     }
 
-    /*seccion2*/
-    
     .buttonseccion2{
         font-size: 1.1rem;
     }
@@ -1383,7 +1250,6 @@ footer{
         padding-inline: 10%;
         display: flex;
     }
-
 
     .columna2seccion2{
         flex-direction: column;
@@ -1405,8 +1271,6 @@ footer{
         padding-bottom: 1rem;
     }
 
-
-
     .h1row4seccion2{
         font-size: 7rem;
     }
@@ -1425,19 +1289,14 @@ footer{
         padding-top: 1.1rem;
     }
 
-    
-
     .contenedors2{
         padding-bottom: 0.8rem;
         
     }
 
-
-
     .row5seccion2{
         padding-right: 1.8rem;
         padding-left: 8rem;
-   
     }
     
     .row6seccion2{
@@ -1448,8 +1307,8 @@ footer{
     .row7seccion2{
         padding-right: 0rem;
         padding-left: 8rem;
-
     }
+
     .row8seccion2{
         padding-right: 0rem;
         padding-left: 10.08rem;
@@ -1462,8 +1321,6 @@ footer{
     .seccion3{
         padding-top: 3.5rem;
         padding-bottom: 4rem;
-
-
     }
 
     .buttonseccion3{
@@ -1477,7 +1334,6 @@ footer{
     .row3seccion3{
         flex-direction: column;
         padding-bottom: 0;
-        
     }
 
     .iconoseccion3aprendido{
@@ -1510,7 +1366,6 @@ footer{
         padding-bottom: 1.5rem;
     }
 
-
     .row4seccion3{
         flex-direction: column;
         justify-content: 0;
@@ -1529,8 +1384,6 @@ footer{
     .cuadro6seccion3{
         padding-bottom: 1.5rem;
     }
-
-
     
     .columna1seccion4{
         padding-top: 4.7rem;
@@ -1597,21 +1450,11 @@ footer{
         padding-inline: 4%;
     }
 
-
-    
-
-
     .imgseccion5{
         justify-content: center;
         padding-inline: 0;
         display: flex;
     }
-
-
-
-
-
-
 
     .columna3seccion5{
         padding-inline: 0%;
@@ -1622,7 +1465,6 @@ footer{
         padding-bottom: 10px;
         padding-right: 10px;
         padding-top: 12px;
-
     }
 
     .iconoseccion5a{
@@ -1671,7 +1513,6 @@ footer{
         justify-content: center;
         padding-bottom: 2rem;
     }
-  
 
     .columnadeseccion9{
         width: 100%;
@@ -1745,7 +1586,6 @@ footer{
     .row8seccion2{
         padding-left: 1rem;
         padding-right: 1rem;
-
     }
 
 }
@@ -1796,7 +1636,5 @@ footer{
     .row8seccion2{
         padding-left: 1rem;
         padding-right: 1rem;
-
     }
-
 }

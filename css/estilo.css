@@ -877,7 +877,6 @@ footer{
 }
 
 
-
 /*comienza dispositivos moviles */
 @media screen and (max-width:480px){
     header{
@@ -1190,6 +1189,396 @@ footer{
     .columna1seccion9{
         flex-direction: column;
         padding-inline: 4%;
+        padding-bottom: 3rem;
+    }
+
+    .columnaizseccion9{
+        width: 100%;
+        text-align: center;
+    }
+
+    .iconosseccion9{
+        justify-content: center;
+        padding-bottom: 2rem;
+    }
+  
+
+    .columnadeseccion9{
+        width: 100%;
+        padding-right: 0;
+        
+    }
+
+    .h2seccion9{
+        text-align: center;
+    }
+
+    .buttoncajaseccion9{
+        justify-content: center;
+        display: flex;
+        font-size: 0.9rem;
+    }
+
+    .buttonseccion9{
+        padding-left: 2.5rem;
+        padding-right: 2rem;
+    }
+
+    .container_footer{
+        flex-direction: column;
+    }
+
+    footer{
+        padding-block: 2rem;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) and (min-width: 481px)  {
+
+    header{
+        height: 3.5rem;
+        justify-content: center;
+    }
+    
+    body{
+        width: 1024px;
+    }
+
+    .logoheader{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .navheader{
+        display: none;
+    }
+
+    .contenedoricono{
+        display: none;
+    }
+
+    .seccion1{
+        padding-bottom: 1rem;
+    }
+
+
+    .contenedor1{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 1rem;
+        width: 100%;
+    }
+
+    .textoseccion1{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    
+    }
+
+    .p1seccion1{
+        font-size: 2.3rem;
+    }
+
+    .h1seccion1{
+        font-size: 3.9rem;
+    }
+
+    .p2seccion1{
+        display: 1.7rem;
+    }
+
+    .buttonseccion1{
+        font-size: 0.9rem;
+    }
+
+    .imagenseccion1{
+        justify-content: center;
+        margin: 0 auto;
+        width: 50%;
+
+    }
+
+    /*seccion2*/
+    
+    .buttonseccion2{
+        font-size: 1.1rem;
+    }
+
+    .h2seccion2{
+        padding-bottom: 1rem;
+    }
+
+    .h1row2seccion2{
+        font-size: 2.4rem;
+    }
+
+    .cuadrosseccion2{
+        padding-inline: 10%;
+        display: flex;
+    }
+
+
+    .columna2seccion2{
+        flex-direction: column;
+    }
+
+    .row3seccion2{
+        padding-inline: 13%;
+        text-align: center;
+        padding-bottom: 0.7rem;
+    }
+
+    .p2seccion2{
+        font-size: 1.35rem;
+    }
+
+    .row4seccion2{
+        padding-top: 1rem;
+        padding-right: 0;
+        padding-bottom: 1rem;
+    }
+
+
+
+    .h1row4seccion2{
+        font-size: 7rem;
+    }
+
+    .letra{
+        font-size: 3.9rem;
+    }
+
+    .prow4seccion2{
+        font-size: 1.7rem;
+    }
+
+    .columna3seccion2{
+        flex-direction: column;
+        padding-inline: 4%;
+        padding-top: 1.1rem;
+    }
+
+    .
+
+    .contenedors2{
+        padding-bottom: 0.8rem;
+        
+    }
+
+
+
+    .row5seccion2{
+        padding-right: 1.8rem;
+        padding-left: 8rem;
+   
+    }
+    
+    .row6seccion2{
+        padding-right: 3rem;
+        padding-left: 14.5rem;
+    }
+
+    .row7seccion2{
+        padding-right: 0rem;
+        padding-left: 8rem;
+
+    }
+    .row8seccion2{
+        padding-right: 0rem;
+        padding-left: 10.08rem;
+    }
+
+    .seccion2{
+        padding-bottom: 3.6rem;
+    }
+
+    .seccion3{
+        padding-top: 3.5rem;
+        padding-bottom: 4rem;
+
+
+    }
+
+    .buttonseccion3{
+        font-size: 1.1rem;
+    }
+
+    .h2seccion3{
+        font-size: 2.4rem;
+    }
+
+    .row3seccion3{
+        flex-direction: column;
+        padding-bottom: 0;
+        
+    }
+
+    .iconoseccion3aprendido{
+        font-size: 2rem;
+    }
+
+    .iconoseccion3{
+        font-size: 2rem;
+    }
+
+
+    .columna2seccion3{
+        display: flex;
+    }
+
+    .columna3seccion3{
+        display: flex;
+    }
+
+    .cuadro1seccion3{
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro2seccion3{
+        padding-inline: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro3seccion3{
+        padding-bottom: 1.5rem;
+    }
+
+
+    .row4seccion3{
+        flex-direction: column;
+        justify-content: 0;
+        padding-bottom: 0;
+    }
+
+    .cuadro4seccion3{
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro5seccion3{
+        padding-inline: 0;
+        padding-bottom: 1.5rem;
+    }
+
+    .cuadro6seccion3{
+        padding-bottom: 1.5rem;
+    }
+
+
+    
+    .columna1seccion4{
+        padding-top: 4.7rem;
+    }
+
+    .buttonseccion4{
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
+
+    .h2seccion4{
+        font-size: 2.4rem;
+    }
+
+    .columna2seccion4{
+        flex-direction: column;
+        padding-inline: 12%;
+    }
+
+    .columnaizseccion4{
+        padding-right: 0.2rem;
+    }
+
+    .row2seccion4{
+        padding-bottom: 3rem;
+    }
+
+    .columnadeseccion4{
+        padding-right: 0.2rem;
+    }
+
+    .row4seccion4{
+        padding-top: 2.8rem;
+        padding-inline: 12%;
+        padding-bottom: 1.5rem;
+    }
+
+    .row5seccion4{
+        padding-inline: 12%;
+    }
+
+    .izseccion4{
+        width: 100%;
+        padding-right: 1.5rem;
+        padding-bottom: 1.8rem;
+    }
+
+    .deseccion4{
+        width: 100%;
+        padding-left: 1.5rem;
+    }
+
+    .row6seccion4{
+        padding-top: 4.5rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .buttonseccion5{
+        font-size: 0.9rem;
+    }
+
+    .h2seccion5{
+        font-size: 2rem;
+        padding-inline: 4%;
+    }
+
+
+    .imgseccion5{
+        justify-content: center;
+    }
+
+    .columna2seccion5{
+        display: none;
+    }
+
+    .imgseccion5{
+        display: flex;
+    }
+
+    .columna3seccion5{
+        padding-inline: 4%;
+    }
+
+    .iconoseccion5{
+        padding-inline: 0;
+    }
+
+    .imgseccion5{
+        width: 80%;
+    }
+
+    .row3seccion5{
+        display: flex;
+        padding-inline: 2%;
+    }
+
+    .row4seccion5{
+        flex-direction: column;
+    }
+
+    .row5seccion5{
+        flex-direction: column;
+
+    }
+
+    .columna4seccion5{
+        padding-bottom: 1.6rem;
+        padding-inline: 0;
+    }
+
+    .columna1seccion9{
+        flex-direction: column;
+        padding-inline: 4%;
+        padding-bottom: 3rem;
     }
 
     .columnaizseccion9{
@@ -1223,14 +1612,12 @@ footer{
         padding-right: 2rem;
     }
 
+    .container_footer{
+        flex-direction: column;
+    }
 
-}
-
-
-@media only screen and (max-width: 800px) and (min-width: 481px)  {
-
-    body{
-        background-color: red;
+    footer{
+        padding-block: 2rem;
     }
 }
 

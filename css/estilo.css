@@ -12,6 +12,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
+    background-color: red;
     
 }
 
@@ -803,7 +804,7 @@ footer{
     }
     
     body{
-        width: 480px;
+        width: 100%;
     }
 
     .logoheader{
@@ -1592,7 +1593,7 @@ footer{
 @media only screen and (max-width: 1316px) and (min-width: 1025px){
 
     body{
-        width: 1316px;
+        width: 100%;
     }
 
     .logoheader{
